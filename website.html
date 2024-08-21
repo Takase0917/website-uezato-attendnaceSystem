@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>うえざと木工勤怠管理システム</title>
+    <style>
+      body {
+        font-family: 'Hiragino Sans', 'Hiragino Kaku Gothic ProN',
+          'Noto Sans JP', Meiryo, sans-serif;
+        line-height: 1.7;
+        margin: 0;
+        padding: 0;
+        background-color: #f6f6f6;
+        color: #333;
+      }
+      .container {
+        max-width: 800px;
+        margin: 40px auto;
+        background: white;
+        padding: 40px;
+        border-radius: 8px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+      h1,
+      h2 {
+        border-bottom: 2px solid #4caf50;
+        padding-bottom: 10px;
+        margin-top: 30px;
+      }
+      h1 {
+        font-size: 24px;
+        text-align: center;
+        color: #1a6600;
+      }
+      h2 {
+        font-size: 20px;
+        color: #2e7d32;
+      }
+      ul,
+      ol {
+        padding-left: 25px;
+      }
+      li {
+        margin-bottom: 10px;
+      }
+      .feature-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        list-style-type: none;
+        padding: 0;
+      }
+      .feature-item {
+        flex-basis: calc(50% - 10px);
+        background: #e8f5e9;
+        margin-bottom: 20px;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+      }
+      .footer {
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+        color: #666;
+        font-size: 14px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>うえざと木工勤怠管理システムへようこそ</h1>
+
+      <h2>アプリについて</h2>
+      <p>
+        うえざと木工勤怠管理システムは、簡単かつ効率的に勤務時間を管理するためのツールです。日々の出勤や休憩時間を簡単に記録することができます。
+      </p>
+
+      <h2>主な機能</h2>
+      <ul class="feature-list">
+        <li class="feature-item">Googleアカウントで簡単ログイン</li>
+        <li class="feature-item">ボタン一つで出勤記録</li>
+        <li class="feature-item">開始時間、休憩時間、終了時間の追跡</li>
+        <li class="feature-item">月単位の出勤記録の閲覧</li>
+        <li class="feature-item">個人のGoogleシートにデータを安全に保存</li>
+      </ul>
+
+      <h2>使い方</h2>
+      <ol>
+        <li>Googleアカウントでログインします。</li>
+        <li>
+          シンプルなボタンで以下を記録します：
+          <ul>
+            <li>出勤時間（8:30以前の場合、自動的に8:30に設定）</li>
+            <li>休憩開始（自動的に12:00に設定）</li>
+            <li>休憩終了（自動的に13:00に設定）</li>
+            <!-- 中抜け -->
+            <li>中抜け開始（記録時間に設定）</li>
+            <li>中抜け終了（記録時間に設定）</li>
+            <li>退勤時間（17:30以降の場合、自動的に17:30に設定）</li>
+          </ul>
+        </li>
+        <li>出勤記録は自動的に個人のスプレッドシートに更新されます。</li>
+        <li>月単位で出勤履歴を確認できます。</li>
+      </ol>
+
+      <p>
+        このアプリは出勤管理を簡素化し、手動入力の手間なく正確な記録を保証します。使いやすさと効率性を重視して設計されております。
+      </p>
+
+      <div class="footer">
+        &copy; 2024 うえざと木工勤怠管理システム. All rights reserved.
+      </div>
+    </div>
+  </body>
+</html>
